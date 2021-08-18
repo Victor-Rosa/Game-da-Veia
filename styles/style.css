@@ -1,18 +1,35 @@
+:root{
+    --color-button: #4b7bec;
+    --color-button-hover:  #264794 ;
+}
+
 body{
-    background-color: #f8f1f1;
+    background-color: #242424;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 
 
 h1{
-    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-
+    
     text-align: center;
-    background-color: #11698e;
+    background-color: var(--color-button);
     color: #f8f1f1;
-    border-radius: 30px;
+
+
+    border-radius: 10px;
+    width: 25%;
+    display: flex;
+    margin: 0 auto;
+    justify-content: center;
+    
+    margin-bottom: 20px;
+    
 }
+
 .stage{
     text-align: center;
+
+    user-select: none;
     
 }
 .square{
@@ -58,4 +75,51 @@ h1{
     bottom: 0;
     right: 0;
     left: 0;
+}
+
+.button-restart{
+    outline: none;
+    user-select: none;
+    border: none;
+
+
+
+    background-color: var(--color-button);
+    cursor: pointer;
+    color: #fff;
+    border-bottom: 5px solid #3867d6;
+    border-radius: 10px;
+
+    margin-top: 25px;
+    padding: 10px;
+    font-weight: bold;
+    position: 50%;
+    
+
+}
+
+.button-restart:hover{
+    background-color: var(--color-button-hover);
+}
+
+.container {
+    display:flex;
+    margin: 0 auto;
+}
+
+/*Footer--------------------------------------------------------*/
+
+p {
+    
+    display: flex;
+    justify-content: center;
+    margin-top: 25px;
+    color: rgb(177, 173, 173);
+}
+
+a {
+    color: rgb(177, 173, 173);
+    margin-left: 5px;
+    text-decoration: none;
+    user-select: none;
 }

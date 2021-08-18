@@ -51,6 +51,7 @@ function isWin() {
            board[pos1] != '') {
 
            return true;
+
         }
     }
 

@@ -11,37 +11,46 @@
 
 <body>
     <header>
-      <h1>Jogo da Velha</h1>  
+        <div class="titulo">
+            <h1>GAME DA VEIA</h1>  
+        </div>
+      
     </header>
     
 
     <main>
-        <div class="stage">
-        <div>
-            <div id="0" class="square"></div>
-            <div id="1" class="square"></div>
-            <div id="2" class="square"></div>
-        </div>
+        <section class="contanier">
+            <div class="stage">
+            <div>
+                <div id="0" class="square"></div>
+                <div id="1" class="square"></div>
+                <div id="2" class="square"></div>
+            </div>
 
-        <div>
-            <div id="3" class="square"></div>
-            <div id="4" class="square"></div>
-            <div id="5" class="square"></div>
-        </div>
+            <div>
+                <div id="3" class="square"></div>
+                <div id="4" class="square"></div>
+                <div id="5" class="square"></div>
+            </div>
 
-        <div>
-            <div id="6" class="square"></div>
-            <div id="7" class="square"></div>
-            <div id="8" class="square"></div>
+            <div>
+                <div id="6" class="square"></div>
+                <div id="7" class="square"></div>
+                <div id="8" class="square"></div>
+            </div>
+            
+            <div>
+                <button onclick="restartGame()" class="button-restart">Restart Game</button>
+            </div>
+        
+        
+        
         </div>
-    </div>
-    </main>
-
-    <footer>
-        <div>
-            <button class="button-restart">Restart Game</button>
-        </div>
-    </footer>
+        </main>
+        <footer>
+            <p>Developed by<a href="https://www.instagram.com/rosavictors/?hl=pt">Victor Rosa</a> </p>
+        </footer>
+    </section>
 
     <script src="./scripts/game.js"></script>
     <script src="./scripts/interface.js"></script>
