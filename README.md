@@ -8,7 +8,8 @@ Game da Veia
   <a href="#memo-licença">Licença</a>
 </p>
 
-
+<img src="./assets/gif/Animação.gif" alt="">
+ 
 ## 💻 Demo
 [jogoveia.netlify.app](https://jogoveia.netlify.app/)
 
